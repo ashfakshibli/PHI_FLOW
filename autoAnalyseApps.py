@@ -14,7 +14,7 @@ for path in os.listdir(apps_dir_path):
     # check if current path is a file
     if os.path.isfile(os.path.join(apps_dir_path, path)):
         app_list.append(path)
-print(app_list)
+#print(app_list)
 
 # Construct commands for running Flowdroid on each file.
 
@@ -28,7 +28,7 @@ for app in app_list:
     command.append("SourcesAndSinks.txt")
     command_dict[app] = command
 
-print(command_dict)
+#print(command_dict)
 
 
 path = "Analysis"
@@ -44,4 +44,5 @@ for app, command in command_dict.items():
         p = subprocess.Popen(command, stdout=f)
         p.communicate()
     f.close()
+    break
 
