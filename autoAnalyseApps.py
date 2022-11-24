@@ -41,8 +41,7 @@ for app, command in command_dict.items():
     file = "Analysis/"+app+".txt"
     print(file, command)
     with open(file, "w") as f:
-        p = subprocess.Popen(command, stdout=f)
+        p = subprocess.Popen(command, stderr=f)
         p.communicate()
     f.close()
-    break
 
