@@ -1,0 +1,13 @@
+[main] INFO soot.jimple.infoflow.cmd.MainClass - Analyzing app /Users/ashfakmdshibli/Desktop/Fall2022/CS785/PHI_FLOWDROID/Apps/Medicalapps/com.mobisystems.msdict.embedded.wireless.oxford.concisemedical.apk (1 of 1)...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Initializing Soot...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Loading dex files...
+The data flow analysis has failed. Error message: Invalid class source type
+java.lang.RuntimeException: Invalid class source type
+	at soot.SourceLocator.getClassesUnder(SourceLocator.java:421)
+	at soot.SourceLocator.getClassesUnder(SourceLocator.java:317)
+	at soot.Scene.loadNecessaryClasses(Scene.java:1819)
+	at soot.jimple.infoflow.android.SetupApplication.initializeSoot(SetupApplication.java:1185)
+	at soot.jimple.infoflow.android.SetupApplication.runInfoflow(SetupApplication.java:1439)
+	at soot.jimple.infoflow.android.SetupApplication.runInfoflow(SetupApplication.java:1414)
+	at soot.jimple.infoflow.cmd.MainClass.run(MainClass.java:360)
+	at soot.jimple.infoflow.cmd.MainClass.main(MainClass.java:254)

@@ -1,0 +1,13 @@
+[main] INFO soot.jimple.infoflow.cmd.MainClass - Analyzing app /Users/ashfakmdshibli/Desktop/Fall2022/CS785/PHI_FLOWDROID/Apps/Medicalapps/com.medm.medmbp.diary.apk (1 of 1)...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Initializing Soot...
+The data flow analysis has failed. Error message: Error when looking for manifest in apk: java.util.zip.ZipException: zip END header not found
+java.lang.RuntimeException: Error when looking for manifest in apk: java.util.zip.ZipException: zip END header not found
+	at soot.Scene.getTargetSDKVersion(Scene.java:538)
+	at soot.Scene.getAndroidAPIVersion(Scene.java:452)
+	at soot.Scene.getAndroidJarPath(Scene.java:411)
+	at soot.jimple.infoflow.android.SetupApplication.getClasspath(SetupApplication.java:1131)
+	at soot.jimple.infoflow.android.SetupApplication.initializeSoot(SetupApplication.java:1179)
+	at soot.jimple.infoflow.android.SetupApplication.runInfoflow(SetupApplication.java:1439)
+	at soot.jimple.infoflow.android.SetupApplication.runInfoflow(SetupApplication.java:1414)
+	at soot.jimple.infoflow.cmd.MainClass.run(MainClass.java:360)
+	at soot.jimple.infoflow.cmd.MainClass.main(MainClass.java:254)
