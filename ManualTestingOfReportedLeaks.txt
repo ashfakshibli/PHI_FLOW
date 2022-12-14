@@ -1,0 +1,125 @@
+
+
+com.medm.medmbp.diary.apk.txt
+=============================
+no leaks
+
+
+
+com.medsam.hba1cconverter.apk.txt
+=================================
+no leaks
+
+
+com.mehrsys.myuptodate.apk.txt
+==============================
+No leaks
+
+
+
+com.mhbl.sastasundar.apk.txt
+============================
+
+(1) getCountry()
+	- used in the header filed of the POST API
+	- Used to get the local time format
+	- 
+
+
+getLongitude
+
+	- No information could be detected
+
+getLatitude
+	- No information could be detected
+	
+	
+	
+	
+com.mobilatolye.tobbetu.apk.txt
+===============================
+
+No leaks found
+
+com.mobisystems.msdict.embedded.wireless.elsevier.dorlandsillustrated.apk.txt
+=============================================================================
+No Leaks
+
+com.mobisystems.msdict.embedded.wireless.oxford.concisemedical.apk.txt
+========================================================================
+No leaks
+
+com.mukeshmeena.mukeshchandmeena.depression.apk.txt
+================================
+0 leaks
+
+com.mullet.StrokeTrials.apk.txt
+==============================
+0 leaks
+
+com.mvp_healthcare.fismobile.apk.tx
+====================================
+0 Leaks
+
+com.mycompany.ucin.apk.txt
+===========================
+0 leaks
+
+com.myluckyday.tcsmedics.apk.txt: 
+================================
+1 leaks: Sink Information --> FileProvider: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+Source -> method <androidx.core.content.FileProvider$SimplePathStrategy: java.io.File getFileForUri(android.net.Uri)>
+No probable violation is here
+
+com.myprograms.dopamine.apk.txt
+==============================
+0 leaks
+
+com.nckk.healthguide.apk.txt
+============================
+29 leaks:
+sources->android system call sink->>startService(android.content.Intent) --> ignore
+source->> java.io.InputStream getInputStream(), sink -> void write(byte[]) 
+
+java.lang.String getDeviceId() =-->> added in a hashmap as hashMap.put("DeviceId", i); and used in POST method
+
+
+com.newme.main.apk.txt
+======================
+android.util.Log: > was called  --> false warning.
+
+
+com.nextcare.app.apk.txt
+
+android.util.Log:--> printing appID
+Logging bluetooth state, name and adaptar address
+Log.d(TAG, "BluetoothAdapter: enabled=" + bluetoothAdapter.isEnabled() + ", state=" + stateToString(bluetoothAdapter.getState()) + ", name=" + bluetoothAdapter.getName() + ", address=" + bluetoothAdapter.getAddress());
+
+
+
+com.nhcps.medicode.apk.txt
+==========================
+
+
+
+com.nhiApp.v1.apk.txt
+=====================
+write(byte[]) ->
+double getLongitude()  1.to animate camera -->2. AsyncHttpClient in request param
+getDeviceId --> added in hashmap
+
+com.norgine.gastroen.apk.txt
+=============================
+0 leaks
+
+
+com.nortonhealthcare.nortonmobile.apk.txt
+=========================================
+String getCountry()>
+						both of them were added in the http call
+getISO2CountryCode() 
+
+
+com.nsaidteam.nursingprocedurechecklist.apk.txt
+===============================================
+0 leaks
