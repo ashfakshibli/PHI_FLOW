@@ -41,8 +41,9 @@ for app, command in command_dict.items():
     file = "Analysis/"+app+".txt"
     print(file, COUNT)
     COUNT+=1
-    with open(file, "w") as f:
-        p = subprocess.Popen(command, stderr=f)
-        p.communicate()
-    f.close()
+    if not os.path.isfile(file):  
+        with open(file, "w") as f:
+            p = subprocess.Popen(command, stderr=f)
+            p.communicate()
+        f.close()
 

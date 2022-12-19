@@ -1,0 +1,384 @@
+[main] INFO soot.jimple.infoflow.cmd.MainClass - Analyzing app /Users/ashfakmdshibli/Desktop/Fall2022/CS785/PHI_FLOWDROID/Apps/Medicalapps/com.medscape.medpulse.apk (1 of 1)...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Initializing Soot...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Loading dex files...
+[main] WARN soot.dexpler.DexFileProvider - Multiple dex files detected, only processing 'classes.dex'. Use '-process-multiple-dex' option to process them all.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - ARSC file parsing took 0.074736776 seconds
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Registered a memory warning system for 3,686.4 MiB
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 42 components...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.appboy.ui.inappmessage.AppboyInAppMessageSimpleDraweeView is not derived from android.view.View
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Collecting callbacks in DEFAULT mode...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Callback analysis done.
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.appboy.ui.inappmessage.AppboyInAppMessageSimpleDraweeView is not derived from android.view.View
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 42 components...
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.BroadcastReceiverEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.ui.inappmessage.listeners.SwipeDismissTouchListener$DismissCallbacks, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.models.IInAppMessage, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.ui.inappmessage.listeners.IInAppMessageViewLifecycleListener, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.models.IInAppMessage, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.ui.inappmessage.listeners.IInAppMessageViewLifecycleListener, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.ui.inappmessage.listeners.SwipeDismissTouchListener$DismissCallbacks, because it is an interface and cannot substitute with subclass
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.appboy.ui.inappmessage.AppboyInAppMessageSimpleDraweeView is not derived from android.view.View
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 36 components...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 42 components...
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.BroadcastReceiverEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.models.IInAppMessage, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.ui.inappmessage.listeners.IInAppMessageViewLifecycleListener, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.ui.inappmessage.listeners.SwipeDismissTouchListener$DismissCallbacks, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.models.IInAppMessage, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.ui.inappmessage.listeners.IInAppMessageViewLifecycleListener, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.ui.inappmessage.listeners.SwipeDismissTouchListener$DismissCallbacks, because it is an interface and cannot substitute with subclass
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.appboy.ui.inappmessage.AppboyInAppMessageSimpleDraweeView is not derived from android.view.View
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 17 components...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 42 components...
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.BroadcastReceiverEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.models.IInAppMessage, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.ui.inappmessage.listeners.IInAppMessageViewLifecycleListener, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.ui.inappmessage.listeners.SwipeDismissTouchListener$DismissCallbacks, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.models.IInAppMessage, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.ui.inappmessage.listeners.IInAppMessageViewLifecycleListener, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.ui.inappmessage.listeners.SwipeDismissTouchListener$DismissCallbacks, because it is an interface and cannot substitute with subclass
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.appboy.ui.inappmessage.AppboyInAppMessageSimpleDraweeView is not derived from android.view.View
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 12 components...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 42 components...
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.BroadcastReceiverEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.BroadcastReceiverEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.models.IInAppMessage, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.ui.inappmessage.listeners.IInAppMessageViewLifecycleListener, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.ui.inappmessage.listeners.SwipeDismissTouchListener$DismissCallbacks, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.models.IInAppMessage, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.ui.inappmessage.listeners.IInAppMessageViewLifecycleListener, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.ui.inappmessage.listeners.SwipeDismissTouchListener$DismissCallbacks, because it is an interface and cannot substitute with subclass
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.appboy.ui.inappmessage.AppboyInAppMessageSimpleDraweeView is not derived from android.view.View
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 8 components...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 42 components...
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.BroadcastReceiverEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.BroadcastReceiverEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.models.IInAppMessage, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.ui.inappmessage.listeners.IInAppMessageViewLifecycleListener, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.ui.inappmessage.listeners.SwipeDismissTouchListener$DismissCallbacks, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.models.IInAppMessage, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.ui.inappmessage.listeners.IInAppMessageViewLifecycleListener, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.ui.inappmessage.listeners.SwipeDismissTouchListener$DismissCallbacks, because it is an interface and cannot substitute with subclass
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.appboy.ui.inappmessage.AppboyInAppMessageSimpleDraweeView is not derived from android.view.View
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 6 components...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 42 components...
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.BroadcastReceiverEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.BroadcastReceiverEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.models.IInAppMessage, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.ui.inappmessage.listeners.IInAppMessageViewLifecycleListener, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.ui.inappmessage.listeners.SwipeDismissTouchListener$DismissCallbacks, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.models.IInAppMessage, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.ui.inappmessage.listeners.IInAppMessageViewLifecycleListener, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.ui.inappmessage.listeners.SwipeDismissTouchListener$DismissCallbacks, because it is an interface and cannot substitute with subclass
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.appboy.ui.inappmessage.AppboyInAppMessageSimpleDraweeView is not derived from android.view.View
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 4 components...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 42 components...
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Could not find Android entry point method: void onAttachFragment(android.app.Fragment)
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.FragmentEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.BroadcastReceiverEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.BroadcastReceiverEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.Interfaces.ICallbackEvent, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ServiceEntryPointCreator - Cannot create valid constructor for com.medscape.medpulse.CustomViews.CustomMediaController$IVideoClickListner, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.models.IInAppMessage, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.ui.inappmessage.listeners.IInAppMessageViewLifecycleListener, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.ui.inappmessage.listeners.SwipeDismissTouchListener$DismissCallbacks, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.models.IInAppMessage, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.ui.inappmessage.listeners.IInAppMessageViewLifecycleListener, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appboy.ui.inappmessage.listeners.SwipeDismissTouchListener$DismissCallbacks, because it is an interface and cannot substitute with subclass
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Fragment without class name or id detected
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.appboy.ui.inappmessage.AppboyInAppMessageSimpleDraweeView is not derived from android.view.View
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 3 components...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Shutting down the memory warning system...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Callback analysis terminated normally
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Entry point calculation done.
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.web.servlet.tags.UrlTag: java.lang.String createUrl)> -> _SINK_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.orm.hibernate3.support.ClobStringType: int[] sqlTypes)> -> _SINK_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.security.config.http.CsrfBeanDefinitionParser: org.springframework.beans.factory.config.BeanDefinition getCsrfLogoutHandler)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.security.config.http.FormLoginBeanDefinitionParser: java.lang.String getLoginPage)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <com.google.auth.oauth2.UserCredentials: java.lang.String getClientSecret)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.web.servlet.tags.UrlTag: java.lang.String createUrl)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.apache.xmlrpc.webserver.RequestData: java.lang.String getMethod)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.dmfs.oauth2.client.http.requests.ResourceOwnerPasswordTokenRequest: org.dmfs.httpclient.HttpRequestEntity requestEntity)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.security.concurrent.DelegatingSecurityContextExecutorService: java.util.concurrent.ExecutorService getDelegate)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.security.config.annotation.web.builders.HttpSecurity: org.springframework.security.config.'annotation'.web.configurers.HeadersConfigurer headers)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.web.servlet.tags.EscapeBodyTag: java.lang.String readBodyContent)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.security.config.http.FormLoginBeanDefinitionParser: java.lang.String getLoginProcessingUrl)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.security.config.annotation.web.configurers.LogoutConfigurer: java.util.List getLogoutHandlers)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.apache.xmlrpc.webserver.RequestData: java.lang.String getHttpVersion)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.apache.xmlrpc.webserver.HttpServletRequestImpl: void parseParameters)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match:     
+[main] INFO soot.jimple.infoflow.android.source.AccessPathBasedSourceSinkManager - Created a SourceSinkManager with 71 sources, 194 sinks, and 213 callback methods.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Collecting callbacks and building a callgraph took 78 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Running data flow analysis on /Users/ashfakmdshibli/Desktop/Fall2022/CS785/PHI_FLOWDROID/Apps/Medicalapps/com.medscape.medpulse.apk with 71 sources and 194 sinks...
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Implicit flow tracking is NOT enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Exceptional flow tracking is enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Running with a maximum access path length of 5
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Using path-agnostic result collection
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Recursive access path shortening is enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Taint analysis enabled: true
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Using alias algorithm FlowSensitive
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Registered a memory warning system for 3,686.4 MiB
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph construction took 0 seconds
+[main] INFO soot.jimple.infoflow.codeOptimization.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Dead code elimination took 1.000080188 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph has 14155 edges
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Starting Taint Analysis
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Using context- and flow-sensitive solver
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Using context- and flow-sensitive solver
+[main] WARN soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Running with limited join point abstractions can break context-sensitive path builders
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Looking for sources and sinks...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Source lookup done, found 24 sources and 161 sinks.
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Taint wrapper hits: 1236151
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Taint wrapper misses: 1227469
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - IFDS problem with 3055664 forward and 2954654 backward edges solved in 82 seconds, processing 9 results...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Current memory consumption: 1708 MB
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Memory consumption after cleanup: 193 MB
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Running path reconstruction batch 1 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$ShutdownBatchPathBuilder - Running path reconstruction batch 2 with 4 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Obtainted 4 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Shutting down the memory warning system...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Memory consumption after path building: 193 MB
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Path reconstruction took 0 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r26.<java.io.ByteArrayOutputStream: void write(byte[],int,int)>($r25, 0, $i0) in method <com.adobe.mobile.RequestHandler: byte[] retrieveData(java.lang.String,int,java.lang.String,java.util.concurrent.Callable,com.adobe.mobile.RequestHandler$HeaderCallback)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r12 = virtualinvoke $r9.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>() in method <com.adobe.mobile.RequestHandler: byte[] retrieveData(java.lang.String,int,java.lang.String,java.util.concurrent.Callable,com.adobe.mobile.RequestHandler$HeaderCallback)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r0.<android.content.Intent: android.content.Intent setComponent(android.content.ComponentName)>($r1) in method <com.appboy.support.IntentUtils: void addComponentAndSendBroadcast(android.content.Context,android.content.Intent)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r5 = virtualinvoke $r4.<android.content.pm.PackageManager: java.util.List queryBroadcastReceivers(android.content.Intent,int)>($r3, 0) in method <com.appboy.support.IntentUtils: void addComponentAndSendBroadcast(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r12.<java.io.BufferedOutputStream: void write(byte[],int,int)>($r9, 0, $i0) in method <com.appboy.support.AppboyFileUtils: java.io.File downloadFileToPath(java.lang.String,java.lang.String,java.lang.String,java.lang.String)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r11 = virtualinvoke $r8.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>() in method <com.appboy.support.AppboyFileUtils: java.io.File downloadFileToPath(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r10, $r11) in method <com.appboy.ui.actions.UriAction: android.content.Intent getActionViewIntent(android.content.Context,android.net.Uri,android.os.Bundle)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r5 = virtualinvoke $r4.<android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)>($r0, 0) in method <com.appboy.ui.actions.UriAction: android.content.Intent getActionViewIntent(android.content.Context,android.net.Uri,android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke $r2.<android.content.Context: void sendBroadcast(android.content.Intent)>($r0) in method <com.appboy.support.IntentUtils: void addComponentAndSendBroadcast(android.content.Context,android.content.Intent)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r5 = virtualinvoke $r4.<android.content.pm.PackageManager: java.util.List queryBroadcastReceivers(android.content.Intent,int)>($r3, 0) in method <com.appboy.support.IntentUtils: void addComponentAndSendBroadcast(android.content.Context,android.content.Intent)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Data flow solver took 84 seconds. Maximum memory consumption: 1708 MB
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Found 5 leaks
