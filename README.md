@@ -27,7 +27,7 @@ safeguard users providing compliance information.
 1. Running FlowDroid on every app in our database using script [autoAnalyseApps.py](autoAnalyseApps.py).
 2. From [Analysis/](Analysis/) check txt files one by one for leaks.
 3. We have documented the leaks in [ManualTestingOfReportedLeaks.txt](ManualTestingOfReportedLeaks.txt).
-4. Also we have added our manual inspection (whether the leaks by FlowDroid is false positive or not) on decompiled (by [jadx](https://github.com/skylot/jadx)) apk source files.
+4. Also we have added our manual inspection (whether the leaks by FlowDroid is false positive or not) on decompiled (by [jadx](https://github.com/skylot/jadx)) apk source files. Our final dataset table given in excel format in [sample_dataset.xlsx](sample_dataset.xlsx).
 
 ## Usage & Contribution Guide
 
