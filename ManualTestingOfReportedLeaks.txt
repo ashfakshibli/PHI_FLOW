@@ -151,54 +151,100 @@ source: GetLatitude, GetLongitude  ---> printing location info. though they are 
 
 
 
+com.medscape.medpulse.apk.txt: 5leaks
+=====================================
+ retriveData --> system broadcast call.: not harmful
+
+1. sink: Write(byte[])  source:  downloadFileToPath. zip file is downloading
 
 
-com.medscape.medpulse.apk.txt
-==============================
 
 
 com.mm.consumer.apk.txt
 ==========================
+analysis did not terminated.
 
 
-com.mobilesoft.escuelaespaldaandroid.apk.txt
-===========================================
+com.mobilesoft.escuelaespaldaandroid.apk.txt: 25 leaks
+============================================
+sink: logD:   source: values from DB. 
+string.replace   source: http request parameters
 
+logD(LOCATION)    source: onLocationDataChange    // location printing
 
-com.mend.android.telemedicine.apk.txt
-=====================================
-
-
-com.mikolajroszkowski.egzaminlek.apk.txt
-===========================================
-
-com.mobicrea.vidal.apk.txt
-==========================
+StartActivityForResult:  to get image from gallery or camera: safe use may be
 
 
 
 
-com.mobileprogramming.nei.apk.txt
-=================================
-
-
-com.mobilesoft.escuelaespaldaandroid.apk.txt
+com.mend.android.telemedicine.apk.txt:  14 leaks
 ================================================
+
+DefaultHttpClient defaultHttpClient = new DefaultHttpClient();
+Log.i("BRANDON: Url - ", APIManager.baseUrl + "/video/" + strArr[0]);  --> video uri is exposed
+
+
+
+com.mikolajroszkowski.egzaminlek.apk.txt: 0 leaks
+===========================================
+
+
+
+com.mobicrea.vidal.apk.txt: 1 leaks
+===================================
+
+Registered for timezonechange listeners: 
+registerTimezoneChangedListener():-> saving the new timezone on sharedpref
+
+
+
+
+
+com.mobileprogramming.nei.apk.txt: 5 leaks: 
+===========================================
+
+putPassword: saving password in sharedPref
+
+LogD
+
+if (this.isLoginFrom.equalsIgnoreCase("Login")) {
+	soapObject = new SoapObject("http://www.neiglobal.com/", NEIConstant.SoapCallLogin.METHOD_NAME);
+	soapObject.addProperty("email", this.encodedEmail);
+	soapObject.addProperty("password", this.encodedPassword);
+	soapObject.addProperty("deviceId", this.android_id);
+	soapObject.addProperty("launchCount", Integer.valueOf(nEIPrefrences.getLaunchCount("LAUNCH_COUNT")));
+} else {
+	soapObject = new SoapObject("http://www.neiglobal.com/", NEIConstant.SoapCallForgotPassword.METHOD_NAME);
+	soapObject.addProperty("email", this.getEmail);
+}
+
+soapObject is passed on soapApi  (http call)
+
+
+GetDrugHeader: -->> from db drug header are accessed, and displayed in android TableView
+GetHtmlPage: from db content, html page is built (by adding tag on string) and that are loaded as view  .. no idea about data 
+
+
+
 
 
 Analysis/com.mukeshmeena.nursingquizpediatric.apk.txt
 ===================================================
-
+0 leaks
 
 
 com.myguard.scorad.plus.phone.apk.txt
 =====================================
-
+0 leaks
 
 
 com.myprograms.glasgow.apk.txt
 ==============================
+0 leaks
+
 
 com.nemours.android.careconnect.apk.txt
 =======================================
+
+
 
