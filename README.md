@@ -1,5 +1,6 @@
 # PHI_FLOW
-### Brief Overview:  Full research paper [here](https://drive.google.com/file/d/1nYI3uY9H8-yIjpoDdgR8VLMlUakbnE4n/view?usp=sharing) & Presentation [here] (https://docs.google.com/presentation/d/1-_3wLOsW412v99PclrHzT-GjY07593ld/edit?usp=sharing&ouid=101254930433502480334&rtpof=true&sd=true)
+## See full research paper [here](https://drive.google.com/file/d/1nYI3uY9H8-yIjpoDdgR8VLMlUakbnE4n/view?usp=sharing) & Presentation [here](https://docs.google.com/presentation/d/1-_3wLOsW412v99PclrHzT-GjY07593ld/edit?usp=sharing&ouid=101254930433502480334&rtpof=true&sd=true)
+### Brief Overview:  
 Mobile applications are widely used by individuals and by
 organizations in the health industry. It is forecasted that
 in 2022, there will be 86.3 million users of health or fitness
